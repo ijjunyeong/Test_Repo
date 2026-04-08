@@ -4,9 +4,10 @@ int main() {
     int dan = 5; 
     int i;
 
-    for (i = 0; i < 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i)
+    for (i = 0; i <= 9; i++) {
+        printf("%d * %d = %d\n", dan, i, dan * i);
     }
 
     return 0;
 }
+//for 문의 printf 뒤에 세미콜론 추가, 9단까지 출력하기 위해 9 이하일때로 변경
