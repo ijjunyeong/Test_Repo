@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int dan = 5; 
-    int i;
+    int dan = 5;  //단수 설정
+    int i;    
 
-    for (i = 0; i <= 9; i++) {
-        printf("%d * %d = %d\n", dan, i, dan * i);
+//9번 출력을 반복
+    for (i = 1; i <= 9; i++) {
+        printf("%d * %d = %d\n", dan, i, dan * i);     //단수와 반복 횟수 곱 출력
     }
 
     return 0;
 }
-//for 문의 printf 뒤에 세미콜론 추가, 9단까지 출력하기 위해 9 이하일때로 변경
